@@ -4,9 +4,9 @@
 // When running the script with `npx hardhat run <script>` you'll find the Hardhat
 // Runtime Environment's members available in the global scope.
 import { ethers } from "hardhat";
+import contractAddresses from "../constants/contractAddresses.json";
 
-const CONTRACT_ADDRESS = "";
-const PLAYER_ADDRESS = "0xBcd4042DE499D14e55001CcbB24a551F3b954096";
+const PLAYER_ADDRESS = contractAddresses.Player;
 
 async function main() {
     console.log(
