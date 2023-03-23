@@ -11,7 +11,7 @@ const PLAYER_ADDRESS = "0xBcd4042DE499D14e55001CcbB24a551F3b954096";
 
 async function main() {
     console.log(
-        "Script to solve Hello Introduction puzzle \n ========================================== \n"
+        "Script to solve Fallback puzzle \n ========================================== \n"
     );
 
     const attacker = await ethers.getSigner(PLAYER_ADDRESS);
